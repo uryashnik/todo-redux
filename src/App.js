@@ -1,15 +1,17 @@
-import React, {Component} from 'react';
+import React, { Component } from 'react';
 import './App.css';
 
-class App extends Component{
-  constructor(props){
+class App extends Component {
+  constructor(props) {
     super(props);
   }
-  
-  render(){
+
+  render() {
     return (
       <div className="App">
-        1
+        <AddTodo />
+        <VisibleTodoList />
+        <Footer />
       </div>
     );
   }
